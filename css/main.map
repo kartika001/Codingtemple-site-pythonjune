@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"$font-stack: Helvetica, sans-serif;\r\n$primary-color: #447798;\r\n$another-color: #fff;\r\n\r\n@mixin border-radius($radius) {\r\n  -webkit-border-radius: $radius;\r\n  -moz-border-radius: $radius;\r\n  -ms-border-radius: $radius;\r\n  border-radius: $radius;\r\n}\r\n\r\nnav {\r\n  ul {\r\n    margin: 0;\r\n    padding: 0;\r\n    list-style: none;\r\n\r\n    p {\r\n      $another-color: #338866;\r\n\r\n      color: $another-color;\r\n    }\r\n  }\r\n\r\n  li {\r\n    display: inline-block;\r\n  }\r\n\r\n  a {\r\n    display: block;\r\n    padding: 6px 12px;\r\n    text-decoration: none;\r\n  }\r\n}\r\n\r\n/*End of nesting section */\r\nbody {\r\n  font: 100% $font-stack;\r\n  color: $primary-color;\r\n}\r\n\r\nh1 {\r\n  background-color: $another-color;\r\n}\r\n\r\n.box {\r\n  @include border-radius(60px);\r\n}\r\n\r\n.container {\r\n  @include border-radius(20px);\r\n}\r\n\r\n.p {\r\n  color: #558866;\r\n}\r\n"
+	],
+	"mappings": ";AAWA,AACE,GADC,CACD,EAAE,CAAC;EACD,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,UAAU,EAAE,IAAK;CAOlB;;;AAXH,AAMI,GAND,CACD,EAAE,CAKA,CAAC,CAAC;EAGA,KAAK,EAFW,OAAO;CAGxB;;;AAVL,AAaE,GAbC,CAaD,EAAE,CAAC;EACD,OAAO,EAAE,YAAa;CACvB;;;AAfH,AAiBE,GAjBC,CAiBD,CAAC,CAAC;EACA,OAAO,EAAE,KAAM;EACf,OAAO,EAAE,QAAS;EAClB,eAAe,EAAE,IAAK;CACvB;;AAGH,2BAA2B;;AAC3B,AAAA,IAAI,CAAC;EACH,IAAI,EAAE,IAAI,CArCC,SAAS,EAAE,UAAU;EAsChC,KAAK,EArCS,OAAO;CAsCtB;;;AAED,AAAA,EAAE,CAAC;EACD,gBAAgB,EAxCF,IAAI;CAyCnB;;;AAED,AAAA,IAAI,CAAC;EAxCH,qBAAqB,EAyCE,IAAI;EAxC3B,kBAAkB,EAwCK,IAAI;EAvC3B,iBAAiB,EAuCM,IAAI;EAtC3B,aAAa,EAsCU,IAAI;CAC5B;;;AAED,AAAA,UAAU,CAAC;EA5CT,qBAAqB,EA6CE,IAAI;EA5C3B,kBAAkB,EA4CK,IAAI;EA3C3B,iBAAiB,EA2CM,IAAI;EA1C3B,aAAa,EA0CU,IAAI;CAC5B;;;AAED,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,OAAQ;CAChB",
+	"names": []
+}

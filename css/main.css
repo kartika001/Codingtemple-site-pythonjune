@@ -1,0 +1,58 @@
+/* line 13, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 18, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+nav ul p {
+  color: #338866;
+}
+
+/* line 25, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 29, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*End of nesting section */
+/* line 37, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #447798;
+}
+
+/* line 42, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+h1 {
+  background-color: #fff;
+}
+
+/* line 46, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+.box {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  border-radius: 60px;
+}
+
+/* line 50, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+.container {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 54, C:/Users/kartika sekar/Documents/python-class-june/python-summer-june/github/bootstrap/scss/main.scss */
+.p {
+  color: #558866;
+}
+
+/*# sourceMappingURL=../css/main.map */
